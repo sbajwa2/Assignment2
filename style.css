@@ -102,3 +102,23 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+/* Mobile Styles (up to 600px) */
+@media (max-width: 600px) {
+    header h1 { font-size: 1.5em; }
+    header img { width: 120px; height: 120px; }
+    main { grid-template-columns: 1fr; } /* Single column */
+}
+
+/* Tablet Styles (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header h1 { font-size: 1.8em; }
+    header img { width: 140px; height: 140px; }
+    main { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+}
+
+/* Desktop Styles (above 1024px) */
+@media (min-width: 1025px) {
+    header h1 { font-size: 2.5em; }
+    header img { width: 160px; height: 160px; }
+    main { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+}
