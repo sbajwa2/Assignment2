@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif; /* Google Font with fallback */
     line-height: 1.6;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #c3bef0;
 }
 
 /* Header Styling with Flexbox for Centering */
@@ -20,7 +20,7 @@ header {
     align-items: center; /* Centers the content horizontally */
     justify-content: center; /* Centers the content vertically */
     text-align: center;
-    background-color: #fff;
+    background-color: #cadefc;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,7 @@ main {
 
 /* Section Styling */
 section {
-    background-color: #fff;
+    background-color: #defcf9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
