@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
+/* Font Import and Web-Safe Fallback */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif; /* Google Font with fallback */
     line-height: 1.6;
     padding: 20px;
     background-color: #f4f4f4;
@@ -36,12 +37,14 @@ header img {
 
 header h1 {
     font-size: 2em;
+    font-weight: 700; /* Use bold for headings */
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
     color: #333;
+    font-weight: 400; /* Normal weight for regular text */
     margin-bottom: 10px;
 }
 
